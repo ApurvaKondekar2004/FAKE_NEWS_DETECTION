@@ -42,8 +42,7 @@ notebook/data/
 *.env
 .env.*
 
-# Google Colab temporary files
-*.ipynb
+
 
 model_GOSSIP/
 model_POL/
