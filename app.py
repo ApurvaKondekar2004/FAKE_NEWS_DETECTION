@@ -1,4 +1,4 @@
-# app.py
+
 import streamlit as st
 from utils import predict_news
 

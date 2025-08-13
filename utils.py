@@ -1,11 +1,11 @@
-# utils.py
+
 import re
 import torch
 from transformers import AutoTokenizer, AutoModelForSequenceClassification
 
 LABELS = {0: "FAKE", 1: "REAL"}
 
-# Cache loaded models to avoid reloading every time
+
 _loaded_models = {}
 
 def load_model(model_path):
